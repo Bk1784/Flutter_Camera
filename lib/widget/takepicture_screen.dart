@@ -36,7 +36,7 @@ class TakepictureScreenState extends State<TakepictureScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Take a picture - byagusss')),
+      appBar: AppBar(title: const Text('Take a picture - NIM Anda')),
       body: FutureBuilder(
         future: _initializeControllerFuture,
         builder: (context, snapshot) {
